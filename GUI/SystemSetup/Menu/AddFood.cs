@@ -65,6 +65,7 @@ namespace GUI.SystemSetup.Menu
             {
                 Name = txtName.Text,
                 Price = txtPrice.Value,
+                PriceAfter = txtPrice.Value,
                 Image = Utilities.UtilsImage.ImageToByteArray(this.pictureBox.Image),
                 MenuID = menu.ID
             };
