@@ -125,7 +125,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(30, 13);
             this.label5.TabIndex = 31;
-            this.label5.Text = "VND";
+            this.label5.Text = "IDR";
             // 
             // openFileDialog
             // 
