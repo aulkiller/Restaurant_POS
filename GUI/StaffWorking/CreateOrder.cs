@@ -37,7 +37,7 @@ namespace GUI.StaffWorking
             set
             {
                 foodPrice = value;
-                this.lbFoodPrice.Text = "Rp" + string.Format("{0:0}", foodPrice);
+                this.lbFoodPrice.Text = "Rp " + string.Format("{0:0}", foodPrice);
                 this.calculateTotalPrice();
             }
         }
@@ -48,7 +48,7 @@ namespace GUI.StaffWorking
             set
             {
                 discount = value;
-                this.lbDiscount.Text = "Rp" + string.Format("{0:0}", discount);
+                this.lbDiscount.Text = "Rp " + string.Format("{0:0}", discount);
                 this.calculateTotalPrice();
             }
         }
@@ -59,7 +59,7 @@ namespace GUI.StaffWorking
             set
             {
                 extra = value;
-                this.lbExtra.Text = "Rp" + string.Format("{0:0}", extra);
+                this.lbExtra.Text = "Rp " + string.Format("{0:0}", extra);
                 this.calculateTotalPrice();
             }
         }
@@ -70,7 +70,7 @@ namespace GUI.StaffWorking
             set
             {
                 vat = value;
-                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (Rp" + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra)*vat/100) + ")";
+                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (Rp " + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra)*vat/100) + ")";
                 this.calculateTotalPrice();
             }
         }
@@ -81,7 +81,7 @@ namespace GUI.StaffWorking
             set
             {
                 totalPrice = value;
-                this.lbTotal.Text = "Rp" + string.Format("{0:0}", totalPrice);
+                this.lbTotal.Text = "Rp " + string.Format("{0:0}", totalPrice);
             }
         }
 

@@ -30,7 +30,7 @@ namespace GUI.Control
             {
                 menuItem = value;
                 this.lbName.Text = menuItem.Name;
-                this.lbPrice.Text = menuItem.Price.ToString();
+                this.lbPrice.Text = "Rp " + string.Format("{0:0}", menuItem.Price);
                 this.pictureBox.Image = UtilsImage.ByteArrayToImage(menuItem.Image);
             }
         }

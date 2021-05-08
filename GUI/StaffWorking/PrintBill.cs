@@ -20,7 +20,7 @@ namespace GUI.StaffWorking
             set
             {
                 foodPrice = value;
-                this.lbFoodPrice.Text = string.Format("{0:0}", foodPrice) + "Rp";
+                this.lbFoodPrice.Text = string.Format("{0:0}", foodPrice) + "Rp ";
             }
         }
         private decimal discount;
@@ -30,7 +30,7 @@ namespace GUI.StaffWorking
             set
             {
                 discount = value;
-                this.lbDiscount.Text = string.Format("{0:0}", discount) + "Rp";
+                this.lbDiscount.Text = string.Format("{0:0}", discount) + "Rp ";
             }
         }
         private decimal extra;
@@ -40,7 +40,7 @@ namespace GUI.StaffWorking
             set
             {
                 extra = value;
-                this.lbExtra.Text = string.Format("{0:0}", extra) + "Rp";
+                this.lbExtra.Text = string.Format("{0:0}", extra) + "Rp ";
             }
         }
         private decimal vat;
@@ -60,7 +60,7 @@ namespace GUI.StaffWorking
             set
             {
                 totalPrice = value;
-                this.lbTotal.Text = string.Format("{0:0}", totalPrice) + "Rp";
+                this.lbTotal.Text = string.Format("{0:0}", totalPrice) + "Rp ";
             }
         }
         private decimal balance;
@@ -70,7 +70,7 @@ namespace GUI.StaffWorking
             set
             {
                 balance = value;
-                this.lbBalance.Text = string.Format("{0:0}", balance) + "Rp";
+                this.lbBalance.Text = string.Format("{0:0}", balance) + "Rp ";
             }
         }
 
@@ -100,7 +100,7 @@ namespace GUI.StaffWorking
                 var od = orderDetails[i];
                 Label lbFood = new Label { Text = od.MenuItem.Name };
                 Label lbQuantity = new Label { Text = od.Quantity.ToString() };
-                Label lbPrice = new Label { Text = string.Format("{0:0}", od.Price) + "Rp" };
+                Label lbPrice = new Label { Text = string.Format("{0:0}", od.Price) + "Rp " };
                 this.tableLayoutPanel1.RowStyles.Add(new RowStyle());
                 this.tableLayoutPanel1.Controls.Add(lbFood, 0, i + 1);
                 this.tableLayoutPanel1.Controls.Add(lbQuantity, 1, i + 1);

@@ -226,7 +226,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(30, 20);
             this.label15.TabIndex = 15;
-            this.label15.Text = "Rp";
+            this.label15.Text = "Rp ";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // numericUpDown1
