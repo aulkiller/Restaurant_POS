@@ -26,7 +26,7 @@ namespace GUI.StaffWorking
                     this.checkBox1.Checked = this.order.VAT == null;
                     if (this.order.VAT != null)
                     {
-                        this.checkBox1.Checked = false;
+                        this.checkBox1.Checked = true;
                         this.numericUpDown1.Value = (decimal)order.VAT;
                     }
                 }
@@ -48,16 +48,16 @@ namespace GUI.StaffWorking
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            this.numericUpDown1.ReadOnly = this.checkBox1.Checked;
-            this.numericUpDown1.Controls[0].Visible = !this.checkBox1.Checked;
-            if(this.checkBox1.Checked)
+            this.numericUpDown1.ReadOnly = !this.checkBox1.Checked;
+            this.numericUpDown1.Controls[0].Visible = this.checkBox1.Checked;
+            if(!this.checkBox1.Checked)
                 this.numericUpDown1.Value = 0;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             OrderBLL orderBLL = new OrderBLL();
-            if (this.checkBox1.Checked)
+            if (!this.checkBox1.Checked)
             {
                 orderBLL.AddVAT(this.Order, null);
             }
