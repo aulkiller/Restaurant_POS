@@ -33,5 +33,30 @@ namespace GUI
         {
             new Analytics().ShowDialog();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            new TablesStatus().ShowDialog();
+        }
+
+        private void FeatureSelector_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            new RestaurantSetup().ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            new Analytics().ShowDialog();
+        }
     }
 }
