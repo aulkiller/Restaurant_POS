@@ -76,7 +76,7 @@ namespace GUI.SystemSetup.Department
                 button.Location = new System.Drawing.Point(490, 7);
                 button.Size = new System.Drawing.Size(100, 20);
                 button.Tag = listDepartment[i];
-                button.Text = "Add emloyee";
+                button.Text = "Add employee";
                 button.Click += new EventHandler(this.btnAddEmloyee_Click);
 
                 t.Controls.Add(button);
