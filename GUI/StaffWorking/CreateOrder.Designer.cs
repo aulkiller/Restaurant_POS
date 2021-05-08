@@ -201,7 +201,7 @@
             this.lbExtra.Name = "lbExtra";
             this.lbExtra.Size = new System.Drawing.Size(20, 13);
             this.lbExtra.TabIndex = 11;
-            this.lbExtra.Text = "0đ";
+            this.lbExtra.Text = "0 Rp";
             // 
             // lbFoodPrice
             // 
@@ -211,7 +211,7 @@
             this.lbFoodPrice.Name = "lbFoodPrice";
             this.lbFoodPrice.Size = new System.Drawing.Size(20, 13);
             this.lbFoodPrice.TabIndex = 15;
-            this.lbFoodPrice.Text = "0đ";
+            this.lbFoodPrice.Text = "0 Rp";
             // 
             // label3
             // 
@@ -243,7 +243,7 @@
             this.lbTotal.Name = "lbTotal";
             this.lbTotal.Size = new System.Drawing.Size(20, 13);
             this.lbTotal.TabIndex = 13;
-            this.lbTotal.Text = "0đ";
+            this.lbTotal.Text = "0 Rp";
             this.lbTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label5
@@ -369,7 +369,7 @@
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.Size = new System.Drawing.Size(107, 20);
             this.txtCustomerName.TabIndex = 2;
-            this.txtCustomerName.Text = "Khách lẻ";
+            this.txtCustomerName.Text = "Pelanggan";
             // 
             // label1
             // 

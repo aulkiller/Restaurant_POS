@@ -129,7 +129,7 @@
             this.lbTotal.Name = "lbTotal";
             this.lbTotal.Size = new System.Drawing.Size(27, 20);
             this.lbTotal.TabIndex = 10;
-            this.lbTotal.Text = "0đ";
+            this.lbTotal.Text = "0 Rp";
             this.lbTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbVAT
@@ -141,7 +141,7 @@
             this.lbVAT.Name = "lbVAT";
             this.lbVAT.Size = new System.Drawing.Size(27, 20);
             this.lbVAT.TabIndex = 9;
-            this.lbVAT.Text = "0đ";
+            this.lbVAT.Text = "0 Rp";
             this.lbVAT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbExtra
@@ -153,7 +153,7 @@
             this.lbExtra.Name = "lbExtra";
             this.lbExtra.Size = new System.Drawing.Size(27, 20);
             this.lbExtra.TabIndex = 8;
-            this.lbExtra.Text = "0đ";
+            this.lbExtra.Text = "0 Rp";
             this.lbExtra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbDiscount
@@ -165,7 +165,7 @@
             this.lbDiscount.Name = "lbDiscount";
             this.lbDiscount.Size = new System.Drawing.Size(27, 20);
             this.lbDiscount.TabIndex = 7;
-            this.lbDiscount.Text = "0đ";
+            this.lbDiscount.Text = "0 Rp";
             this.lbDiscount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbFoodPrice
@@ -177,7 +177,7 @@
             this.lbFoodPrice.Name = "lbFoodPrice";
             this.lbFoodPrice.Size = new System.Drawing.Size(27, 20);
             this.lbFoodPrice.TabIndex = 6;
-            this.lbFoodPrice.Text = "0đ";
+            this.lbFoodPrice.Text = "0 Rp";
             this.lbFoodPrice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label12
@@ -213,7 +213,7 @@
             this.lbBalance.Name = "lbBalance";
             this.lbBalance.Size = new System.Drawing.Size(27, 20);
             this.lbBalance.TabIndex = 13;
-            this.lbBalance.Text = "0đ";
+            this.lbBalance.Text = "0 Rp";
             this.lbBalance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label15
@@ -225,7 +225,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(18, 20);
             this.label15.TabIndex = 15;
-            this.label15.Text = "đ";
+            this.label15.Text = "Rp";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // numericUpDown1

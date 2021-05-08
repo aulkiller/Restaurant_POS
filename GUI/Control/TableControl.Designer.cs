@@ -44,9 +44,10 @@ namespace GUI.Control
             this.txtName.AutoSize = true;
             this.txtName.ContextMenuStrip = this.contextMenuStrip;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(36, 22);
+            this.txtName.Location = new System.Drawing.Point(22, 26);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(73, 25);
+            this.txtName.Size = new System.Drawing.Size(111, 31);
             this.txtName.TabIndex = 0;
             this.txtName.Text = "Table 1";
             this.txtName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -55,35 +56,37 @@ namespace GUI.Control
             // 
             // contextMenuStrip
             // 
+            this.contextMenuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.editToolStripMenuItem,
             this.deleteToolStripMenuItem});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(108, 48);
+            this.contextMenuStrip.Size = new System.Drawing.Size(123, 52);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.editToolStripMenuItem.Text = "Edit...";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // TableControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ContextMenuStrip = this.contextMenuStrip;
             this.Controls.Add(this.txtName);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TableControl";
-            this.Size = new System.Drawing.Size(149, 69);
+            this.Size = new System.Drawing.Size(199, 85);
             this.DoubleClick += new System.EventHandler(this.TableControl_DoubleClick);
             this.contextMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
