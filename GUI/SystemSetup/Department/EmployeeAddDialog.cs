@@ -12,14 +12,14 @@ using DAL;
 
 namespace GUI.SystemSetup.Department
 {
-    public partial class EmloyeeAddDialog : Form
+    public partial class EmployeeAddDialog : Form
     {
         DAL.Department department;
-        public EmloyeeAddDialog()
+        public EmployeeAddDialog()
         {
             InitializeComponent();
         }
-        public EmloyeeAddDialog(DAL.Department department)
+        public EmployeeAddDialog(DAL.Department department)
         {
             InitializeComponent();
             this.department = department; 
@@ -72,6 +72,11 @@ namespace GUI.SystemSetup.Department
                     }
                 }
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

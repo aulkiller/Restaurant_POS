@@ -12,18 +12,18 @@ using DAL;
 
 namespace GUI.SystemSetup.Department
 {
-    public partial class EmloyeeEditDialog : Form
+    public partial class EmployeeEditDialog : Form
     {
         public Employee employee;
 
-        public EmloyeeEditDialog()
+        public EmployeeEditDialog()
         {
             InitializeComponent();
 
             this.LoadData();
         }
 
-        public EmloyeeEditDialog(Employee employee)
+        public EmployeeEditDialog(Employee employee)
         {
             this.employee = employee;
             InitializeComponent();

@@ -1,6 +1,6 @@
 ﻿namespace GUI.SystemSetup.Department
 {
-    partial class EmloyeeAddDialog
+    partial class EmployeeAddDialog
     {
         /// <summary>
         /// Required designer variable.
@@ -64,9 +64,10 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(36, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 13);
+            this.label2.Size = new System.Drawing.Size(89, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Emloyee\'s name";
+            this.label2.Text = "Employee\'s name";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -75,9 +76,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(109, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 20);
+            this.label1.Size = new System.Drawing.Size(122, 20);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Add emloyee";
+            this.label1.Text = "Add employee";
             // 
             // tvUserName
             // 
@@ -104,7 +105,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 13;
-            this.label4.Text = "Passwork";
+            this.label4.Text = "Password";
             // 
             // label5
             // 
@@ -113,7 +114,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(90, 13);
             this.label5.TabIndex = 15;
-            this.label5.Text = "Retype Passwork";
+            this.label5.Text = "Retype Password";
             // 
             // tvPassword
             // 
@@ -136,7 +137,7 @@
             this.tvRetypePassword.UseSystemPasswordChar = true;
             this.tvRetypePassword.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tvRetypePassword_KeyUp);
             // 
-            // EmloyeeAddDialog
+            // EmployeeAddDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,7 +152,7 @@
             this.Controls.Add(this.tvName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "EmloyeeAddDialog";
+            this.Name = "EmployeeAddDialog";
             this.Text = "EmloyeeAddDialog";
             this.ResumeLayout(false);
             this.PerformLayout();

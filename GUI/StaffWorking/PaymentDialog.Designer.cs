@@ -127,9 +127,9 @@
             this.lbTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTotal.Location = new System.Drawing.Point(168, 170);
             this.lbTotal.Name = "lbTotal";
-            this.lbTotal.Size = new System.Drawing.Size(27, 20);
+            this.lbTotal.Size = new System.Drawing.Size(43, 20);
             this.lbTotal.TabIndex = 10;
-            this.lbTotal.Text = "0 Rp";
+            this.lbTotal.Text = "Rp 0";
             this.lbTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbVAT
@@ -139,9 +139,9 @@
             this.lbVAT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbVAT.Location = new System.Drawing.Point(169, 139);
             this.lbVAT.Name = "lbVAT";
-            this.lbVAT.Size = new System.Drawing.Size(27, 20);
+            this.lbVAT.Size = new System.Drawing.Size(43, 20);
             this.lbVAT.TabIndex = 9;
-            this.lbVAT.Text = "0 Rp";
+            this.lbVAT.Text = "Rp 0";
             this.lbVAT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbExtra
@@ -151,9 +151,9 @@
             this.lbExtra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbExtra.Location = new System.Drawing.Point(169, 109);
             this.lbExtra.Name = "lbExtra";
-            this.lbExtra.Size = new System.Drawing.Size(27, 20);
+            this.lbExtra.Size = new System.Drawing.Size(43, 20);
             this.lbExtra.TabIndex = 8;
-            this.lbExtra.Text = "0 Rp";
+            this.lbExtra.Text = "Rp 0";
             this.lbExtra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbDiscount
@@ -163,9 +163,9 @@
             this.lbDiscount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDiscount.Location = new System.Drawing.Point(169, 79);
             this.lbDiscount.Name = "lbDiscount";
-            this.lbDiscount.Size = new System.Drawing.Size(27, 20);
+            this.lbDiscount.Size = new System.Drawing.Size(43, 20);
             this.lbDiscount.TabIndex = 7;
-            this.lbDiscount.Text = "0 Rp";
+            this.lbDiscount.Text = "Rp 0";
             this.lbDiscount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbFoodPrice
@@ -175,10 +175,11 @@
             this.lbFoodPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbFoodPrice.Location = new System.Drawing.Point(169, 50);
             this.lbFoodPrice.Name = "lbFoodPrice";
-            this.lbFoodPrice.Size = new System.Drawing.Size(27, 20);
+            this.lbFoodPrice.Size = new System.Drawing.Size(43, 20);
             this.lbFoodPrice.TabIndex = 6;
-            this.lbFoodPrice.Text = "0 Rp";
+            this.lbFoodPrice.Text = "Rp 0";
             this.lbFoodPrice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbFoodPrice.Click += new System.EventHandler(this.lbFoodPrice_Click);
             // 
             // label12
             // 
@@ -211,9 +212,9 @@
             this.lbBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbBalance.Location = new System.Drawing.Point(169, 226);
             this.lbBalance.Name = "lbBalance";
-            this.lbBalance.Size = new System.Drawing.Size(27, 20);
+            this.lbBalance.Size = new System.Drawing.Size(43, 20);
             this.lbBalance.TabIndex = 13;
-            this.lbBalance.Text = "0 Rp";
+            this.lbBalance.Text = "Rp 0";
             this.lbBalance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label15
@@ -221,9 +222,9 @@
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(259, 198);
+            this.label15.Location = new System.Drawing.Point(169, 198);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(18, 20);
+            this.label15.Size = new System.Drawing.Size(30, 20);
             this.label15.TabIndex = 15;
             this.label15.Text = "Rp";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -232,7 +233,7 @@
             // 
             this.numericUpDown1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(173, 196);
+            this.numericUpDown1.Location = new System.Drawing.Point(196, 196);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             1874919423,
             2328306,

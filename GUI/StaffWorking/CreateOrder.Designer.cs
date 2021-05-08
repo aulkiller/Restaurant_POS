@@ -199,9 +199,9 @@
             this.lbExtra.AutoSize = true;
             this.lbExtra.Location = new System.Drawing.Point(93, 242);
             this.lbExtra.Name = "lbExtra";
-            this.lbExtra.Size = new System.Drawing.Size(20, 13);
+            this.lbExtra.Size = new System.Drawing.Size(33, 13);
             this.lbExtra.TabIndex = 11;
-            this.lbExtra.Text = "0 Rp";
+            this.lbExtra.Text = "Rp 0 ";
             // 
             // lbFoodPrice
             // 
@@ -209,9 +209,10 @@
             this.lbFoodPrice.AutoSize = true;
             this.lbFoodPrice.Location = new System.Drawing.Point(93, 209);
             this.lbFoodPrice.Name = "lbFoodPrice";
-            this.lbFoodPrice.Size = new System.Drawing.Size(20, 13);
+            this.lbFoodPrice.Size = new System.Drawing.Size(30, 13);
             this.lbFoodPrice.TabIndex = 15;
-            this.lbFoodPrice.Text = "0 Rp";
+            this.lbFoodPrice.Text = "Rp 0";
+            this.lbFoodPrice.Click += new System.EventHandler(this.lbFoodPrice_Click);
             // 
             // label3
             // 
@@ -241,9 +242,9 @@
             this.lbTotal.AutoSize = true;
             this.lbTotal.Location = new System.Drawing.Point(93, 271);
             this.lbTotal.Name = "lbTotal";
-            this.lbTotal.Size = new System.Drawing.Size(20, 13);
+            this.lbTotal.Size = new System.Drawing.Size(30, 13);
             this.lbTotal.TabIndex = 13;
-            this.lbTotal.Text = "0 Rp";
+            this.lbTotal.Text = "Rp 0";
             this.lbTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label5

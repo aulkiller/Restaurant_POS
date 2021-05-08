@@ -1,6 +1,6 @@
 ﻿namespace GUI.SystemSetup.Department
 {
-    partial class EmloyeeEditDialog
+    partial class EmployeeEditDialog
     {
         /// <summary>
         /// Required designer variable.
@@ -70,9 +70,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(17, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 13);
+            this.label2.Size = new System.Drawing.Size(89, 13);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Emloyee\'s name";
+            this.label2.Text = "Employee\'s name";
             // 
             // label1
             // 
@@ -81,9 +81,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(104, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 20);
+            this.label1.Size = new System.Drawing.Size(122, 20);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Edit emloyee";
+            this.label1.Text = "Edit employee";
             // 
             // btnEdit
             // 

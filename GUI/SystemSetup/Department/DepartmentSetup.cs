@@ -146,7 +146,7 @@ namespace GUI.SystemSetup.Department
         {
             Button btn = (Button)sender;
             DAL.Department department = (DAL.Department)btn.Tag;
-            new EmloyeeAddDialog(department).ShowDialog();
+            new EmployeeAddDialog(department).ShowDialog();
             this.LoadData();
         }
 
@@ -216,7 +216,7 @@ namespace GUI.SystemSetup.Department
             int index = dgv.SelectedRows[0].Index;
             List<Employee> listEmp = (List<Employee>)dgv.DataSource;
 
-            EmloyeeEditDialog emloyeeEditDialog = new EmloyeeEditDialog(listEmp[index]);
+            EmployeeEditDialog emloyeeEditDialog = new EmployeeEditDialog(listEmp[index]);
             DialogResult dr = emloyeeEditDialog.ShowDialog();
             if (dr == DialogResult.OK)
             {

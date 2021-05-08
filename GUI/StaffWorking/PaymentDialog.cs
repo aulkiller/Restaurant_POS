@@ -21,7 +21,7 @@ namespace GUI.StaffWorking
             set
             {
                 foodPrice = value;
-                this.lbFoodPrice.Text = string.Format("{0:0}", foodPrice) + "Rp";
+                this.lbFoodPrice.Text = "Rp" + string.Format("{0:0}", foodPrice);
             }
         }
         private decimal discount;
@@ -31,7 +31,7 @@ namespace GUI.StaffWorking
             set
             {
                 discount = value;
-                this.lbDiscount.Text = string.Format("{0:0}", discount) + "Rp";
+                this.lbDiscount.Text = "Rp" + string.Format("{0:0}", discount);
             }
         }
         private decimal extra;
@@ -41,7 +41,7 @@ namespace GUI.StaffWorking
             set
             {
                 extra = value;
-                this.lbExtra.Text = string.Format("{0:0}", extra) + "Rp";
+                this.lbExtra.Text = "Rp" + string.Format("{0:0}", extra);
             }
         }
         private decimal vat;
@@ -51,7 +51,7 @@ namespace GUI.StaffWorking
             set
             {
                 vat = value;
-                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (" + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra) * vat / 100) + "Rp)";
+                this.lbVAT.Text = string.Format("{0:0}", vat) + "% (Rp" + string.Format("{0:0}", (this.FoodPrice - this.Discount + this.Extra) * vat / 100)+")";
             }
         }
         private decimal totalPrice;
@@ -61,7 +61,7 @@ namespace GUI.StaffWorking
             set
             {
                 totalPrice = value;
-                this.lbTotal.Text = string.Format("{0:0}", totalPrice) + "Rp";
+                this.lbTotal.Text = "Rp" + string.Format("{0:0}", totalPrice);
             }
         }
         private decimal balance;
@@ -71,7 +71,7 @@ namespace GUI.StaffWorking
             set
             {
                 balance = value;
-                this.lbBalance.Text = string.Format("{0:0}", balance) + "Rp";
+                this.lbBalance.Text = "Rp" + string.Format("{0:0}", balance);
             }
         }
 
@@ -104,6 +104,11 @@ namespace GUI.StaffWorking
             this.DialogResult = DialogResult.OK;
             new PrintBill(this.order, this.FoodPrice, this.Discount, this.Extra, this.VAT, this.TotalPrice).ShowDialog();
             this.Close();
+        }
+
+        private void lbFoodPrice_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

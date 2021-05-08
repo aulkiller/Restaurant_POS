@@ -96,5 +96,10 @@ namespace GUI
             // unlock login
             this.LockLogin = false;
         }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

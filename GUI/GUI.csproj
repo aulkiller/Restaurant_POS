@@ -163,17 +163,17 @@
     <Compile Include="SystemSetup\Department\DepartmentSetup.Designer.cs">
       <DependentUpon>DepartmentSetup.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemSetup\Department\EmloyeeAddDialog.cs">
+    <Compile Include="SystemSetup\Department\EmployeeAddDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemSetup\Department\EmloyeeAddDialog.Designer.cs">
-      <DependentUpon>EmloyeeAddDialog.cs</DependentUpon>
+    <Compile Include="SystemSetup\Department\EmployeeAddDialog.Designer.cs">
+      <DependentUpon>EmployeeAddDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemSetup\Department\EmloyeeEditDialog.cs">
+    <Compile Include="SystemSetup\Department\EmployeeEditDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemSetup\Department\EmloyeeEditDialog.Designer.cs">
-      <DependentUpon>EmloyeeEditDialog.cs</DependentUpon>
+    <Compile Include="SystemSetup\Department\EmployeeEditDialog.Designer.cs">
+      <DependentUpon>EmployeeEditDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -296,11 +296,11 @@
     <EmbeddedResource Include="SystemSetup\Department\DepartmentSetup.resx">
       <DependentUpon>DepartmentSetup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemSetup\Department\EmloyeeAddDialog.resx">
-      <DependentUpon>EmloyeeAddDialog.cs</DependentUpon>
+    <EmbeddedResource Include="SystemSetup\Department\EmployeeAddDialog.resx">
+      <DependentUpon>EmployeeAddDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemSetup\Department\EmloyeeEditDialog.resx">
-      <DependentUpon>EmloyeeEditDialog.cs</DependentUpon>
+    <EmbeddedResource Include="SystemSetup\Department\EmployeeEditDialog.resx">
+      <DependentUpon>EmployeeEditDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
