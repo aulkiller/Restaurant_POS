@@ -40,25 +40,27 @@
             // tvExtra
             // 
             this.tvExtra.BackColor = System.Drawing.Color.White;
-            this.tvExtra.Location = new System.Drawing.Point(31, 183);
-            this.tvExtra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tvExtra.Location = new System.Drawing.Point(23, 149);
             this.tvExtra.Maximum = new decimal(new int[] {
             -402653185,
             -1613725636,
             54210108,
             0});
             this.tvExtra.Name = "tvExtra";
-            this.tvExtra.Size = new System.Drawing.Size(381, 22);
+            this.tvExtra.Size = new System.Drawing.Size(286, 20);
             this.tvExtra.TabIndex = 30;
             this.tvExtra.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tvExtra_KeyUp);
             // 
             // btAdd
             // 
-            this.btAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
-            this.btAdd.Location = new System.Drawing.Point(172, 230);
-            this.btAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(92)))));
+            this.btAdd.FlatAppearance.BorderSize = 0;
+            this.btAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
+            this.btAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
+            this.btAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btAdd.Location = new System.Drawing.Point(129, 187);
             this.btAdd.Name = "btAdd";
-            this.btAdd.Size = new System.Drawing.Size(100, 28);
+            this.btAdd.Size = new System.Drawing.Size(75, 23);
             this.btAdd.TabIndex = 27;
             this.btAdd.Text = "Add";
             this.btAdd.UseVisualStyleBackColor = false;
@@ -67,10 +69,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 155);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(23, 126);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 17);
+            this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 26;
             this.label2.Text = "Extra Value";
             // 
@@ -79,43 +80,40 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 23);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(125, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 25);
+            this.label1.Size = new System.Drawing.Size(88, 20);
             this.label1.TabIndex = 25;
             this.label1.Text = "Add Extra";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(31, 62);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(23, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 17);
+            this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 31;
             this.label3.Text = "Extra Content";
             // 
             // tvContent
             // 
-            this.tvContent.Location = new System.Drawing.Point(35, 98);
-            this.tvContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tvContent.Location = new System.Drawing.Point(26, 80);
             this.tvContent.Name = "tvContent";
-            this.tvContent.Size = new System.Drawing.Size(376, 22);
+            this.tvContent.Size = new System.Drawing.Size(283, 20);
             this.tvContent.TabIndex = 32;
             // 
             // AddExtraDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(448, 287);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.ClientSize = new System.Drawing.Size(336, 233);
             this.Controls.Add(this.tvContent);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tvExtra);
             this.Controls.Add(this.btAdd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddExtraDialog";
             this.Text = "AddExtraDialog";
             ((System.ComponentModel.ISupportInitialize)(this.tvExtra)).EndInit();

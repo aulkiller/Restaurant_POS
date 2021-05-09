@@ -224,7 +224,7 @@
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(169, 198);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(30, 20);
+            this.label15.Size = new System.Drawing.Size(34, 20);
             this.label15.TabIndex = 15;
             this.label15.Text = "Rp ";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -261,6 +261,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(300, 321);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.numericUpDown1);
