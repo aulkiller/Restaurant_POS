@@ -55,12 +55,18 @@
             // btnAddMenu
             // 
             this.btnAddMenu.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnAddMenu.Location = new System.Drawing.Point(113, 102);
+            this.btnAddMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnAddMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddMenu.FlatAppearance.BorderSize = 0;
+            this.btnAddMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(138)))), ((int)(((byte)(2)))));
+            this.btnAddMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(150)))), ((int)(((byte)(2)))));
+            this.btnAddMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddMenu.Location = new System.Drawing.Point(110, 112);
             this.btnAddMenu.Name = "btnAddMenu";
             this.btnAddMenu.Size = new System.Drawing.Size(75, 23);
             this.btnAddMenu.TabIndex = 2;
             this.btnAddMenu.Text = "Add";
-            this.btnAddMenu.UseVisualStyleBackColor = true;
+            this.btnAddMenu.UseVisualStyleBackColor = false;
             this.btnAddMenu.Click += new System.EventHandler(this.btnAddMenu_Click);
             // 
             // label2
@@ -71,7 +77,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Add menu";
+            this.label2.Text = "Add Menu";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AddMenu

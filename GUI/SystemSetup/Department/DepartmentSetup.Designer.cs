@@ -44,12 +44,14 @@
             // btnAddDepartment
             // 
             this.btnAddDepartment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddDepartment.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnAddDepartment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddDepartment.Location = new System.Drawing.Point(614, 12);
             this.btnAddDepartment.Name = "btnAddDepartment";
             this.btnAddDepartment.Size = new System.Drawing.Size(116, 23);
             this.btnAddDepartment.TabIndex = 3;
             this.btnAddDepartment.Text = "Add a department";
-            this.btnAddDepartment.UseVisualStyleBackColor = true;
+            this.btnAddDepartment.UseVisualStyleBackColor = false;
             this.btnAddDepartment.Click += new System.EventHandler(this.btnAddDepartment_Click);
             // 
             // tabPage1
@@ -91,8 +93,8 @@
             // 
             // tabControl
             // 
-            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Location = new System.Drawing.Point(20, 53);
@@ -116,6 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
             this.ClientSize = new System.Drawing.Size(742, 307);
             this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.btnAddDepartment);

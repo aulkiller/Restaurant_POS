@@ -64,7 +64,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
             this.panel1.Controls.Add(this.tabControl);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -103,50 +103,76 @@
             // 
             // btnVAT
             // 
+            this.btnVAT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(92)))));
+            this.btnVAT.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVAT.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnVAT.FlatAppearance.BorderSize = 0;
+            this.btnVAT.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
+            this.btnVAT.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
+            this.btnVAT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVAT.ForeColor = System.Drawing.Color.White;
             this.btnVAT.Location = new System.Drawing.Point(96, 0);
             this.btnVAT.Margin = new System.Windows.Forms.Padding(0);
             this.btnVAT.Name = "btnVAT";
             this.btnVAT.Size = new System.Drawing.Size(82, 59);
             this.btnVAT.TabIndex = 0;
             this.btnVAT.Text = "Add VAT";
-            this.btnVAT.UseVisualStyleBackColor = true;
+            this.btnVAT.UseVisualStyleBackColor = false;
             this.btnVAT.Click += new System.EventHandler(this.btnVAT_Click);
             // 
             // btnExtra
             // 
+            this.btnExtra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(92)))));
+            this.btnExtra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExtra.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnExtra.FlatAppearance.BorderSize = 0;
+            this.btnExtra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
+            this.btnExtra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
+            this.btnExtra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExtra.ForeColor = System.Drawing.Color.White;
             this.btnExtra.Location = new System.Drawing.Point(96, 59);
             this.btnExtra.Margin = new System.Windows.Forms.Padding(0);
             this.btnExtra.Name = "btnExtra";
             this.btnExtra.Size = new System.Drawing.Size(82, 58);
             this.btnExtra.TabIndex = 1;
             this.btnExtra.Text = "Add extra";
-            this.btnExtra.UseVisualStyleBackColor = true;
+            this.btnExtra.UseVisualStyleBackColor = false;
             this.btnExtra.Click += new System.EventHandler(this.btnExtra_Click_1);
             // 
             // btnDiscount
             // 
+            this.btnDiscount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(92)))));
             this.btnDiscount.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnDiscount.FlatAppearance.BorderSize = 0;
+            this.btnDiscount.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
+            this.btnDiscount.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
+            this.btnDiscount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDiscount.ForeColor = System.Drawing.Color.White;
             this.btnDiscount.Location = new System.Drawing.Point(0, 0);
             this.btnDiscount.Margin = new System.Windows.Forms.Padding(0);
             this.btnDiscount.Name = "btnDiscount";
             this.btnDiscount.Size = new System.Drawing.Size(96, 59);
             this.btnDiscount.TabIndex = 2;
             this.btnDiscount.Text = "Add Discount";
-            this.btnDiscount.UseVisualStyleBackColor = true;
+            this.btnDiscount.UseVisualStyleBackColor = false;
             this.btnDiscount.Click += new System.EventHandler(this.btnDiscount_Click_1);
             // 
             // btnChangeTable
             // 
+            this.btnChangeTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(92)))));
             this.btnChangeTable.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnChangeTable.FlatAppearance.BorderSize = 0;
+            this.btnChangeTable.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
+            this.btnChangeTable.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
+            this.btnChangeTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangeTable.ForeColor = System.Drawing.Color.White;
             this.btnChangeTable.Location = new System.Drawing.Point(0, 59);
             this.btnChangeTable.Margin = new System.Windows.Forms.Padding(0);
             this.btnChangeTable.Name = "btnChangeTable";
             this.btnChangeTable.Size = new System.Drawing.Size(96, 58);
             this.btnChangeTable.TabIndex = 3;
             this.btnChangeTable.Text = "Change table";
-            this.btnChangeTable.UseVisualStyleBackColor = true;
+            this.btnChangeTable.UseVisualStyleBackColor = false;
             this.btnChangeTable.Click += new System.EventHandler(this.btnChangeTable_Click);
             // 
             // label4
@@ -309,7 +335,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
             this.panel2.Controls.Add(this.lbExtra);
             this.panel2.Controls.Add(this.flowLayoutPanelRight);
             this.panel2.Controls.Add(this.lbFoodPrice);
@@ -332,25 +358,40 @@
             // 
             // btnPay
             // 
+            this.btnPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnPay.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPay.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnPay.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnPay.FlatAppearance.BorderSize = 0;
+            this.btnPay.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(138)))), ((int)(((byte)(2)))));
+            this.btnPay.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(150)))), ((int)(((byte)(2)))));
+            this.btnPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPay.Location = new System.Drawing.Point(0, 58);
             this.btnPay.Margin = new System.Windows.Forms.Padding(0);
             this.btnPay.Name = "btnPay";
             this.btnPay.Size = new System.Drawing.Size(88, 59);
             this.btnPay.TabIndex = 4;
             this.btnPay.Text = "Pay";
-            this.btnPay.UseVisualStyleBackColor = true;
+            this.btnPay.UseVisualStyleBackColor = false;
             this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
             // 
             // btnOrder
             // 
             this.btnOrder.AutoSize = true;
+            this.btnOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnOrder.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOrder.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnOrder.FlatAppearance.BorderSize = 0;
+            this.btnOrder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(138)))), ((int)(((byte)(2)))));
+            this.btnOrder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(150)))), ((int)(((byte)(2)))));
+            this.btnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOrder.Location = new System.Drawing.Point(0, 0);
             this.btnOrder.Margin = new System.Windows.Forms.Padding(0);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(88, 58);
             this.btnOrder.TabIndex = 3;
             this.btnOrder.Text = "Order";
-            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.UseVisualStyleBackColor = false;
             this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click_1);
             // 
             // tableLayoutPanel2
@@ -378,7 +419,7 @@
             this.layoutButton.Controls.Add(this.btnDiscount, 0, 0);
             this.layoutButton.Controls.Add(this.btnExtra, 1, 1);
             this.layoutButton.Controls.Add(this.btnVAT, 1, 0);
-            this.layoutButton.Location = new System.Drawing.Point(727, 597);
+            this.layoutButton.Location = new System.Drawing.Point(730, 597);
             this.layoutButton.Margin = new System.Windows.Forms.Padding(0);
             this.layoutButton.Name = "layoutButton";
             this.layoutButton.RowCount = 2;
@@ -391,7 +432,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.layoutButton);
             this.Controls.Add(this.tableLayoutPanel2);
