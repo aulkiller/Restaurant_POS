@@ -40,9 +40,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 60);
+            this.label1.Location = new System.Drawing.Point(16, 74);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 13);
+            this.label1.Size = new System.Drawing.Size(86, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Menu name:";
             // 
@@ -51,9 +52,10 @@
             this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtName.Location = new System.Drawing.Point(17, 81);
+            this.txtName.Location = new System.Drawing.Point(23, 100);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(270, 13);
+            this.txtName.Size = new System.Drawing.Size(360, 15);
             this.txtName.TabIndex = 1;
             // 
             // btnAddMenu
@@ -67,9 +69,10 @@
             this.btnAddMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddMenu.ForeColor = System.Drawing.Color.White;
-            this.btnAddMenu.Location = new System.Drawing.Point(110, 121);
+            this.btnAddMenu.Location = new System.Drawing.Point(147, 149);
+            this.btnAddMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddMenu.Name = "btnAddMenu";
-            this.btnAddMenu.Size = new System.Drawing.Size(75, 23);
+            this.btnAddMenu.Size = new System.Drawing.Size(100, 28);
             this.btnAddMenu.TabIndex = 2;
             this.btnAddMenu.Text = "Add";
             this.btnAddMenu.UseVisualStyleBackColor = false;
@@ -79,9 +82,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(106, 9);
+            this.label2.Location = new System.Drawing.Point(141, 11);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 20);
+            this.label2.Size = new System.Drawing.Size(111, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Add Menu";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,25 +93,27 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-14, 59);
+            this.pictureBox2.Location = new System.Drawing.Point(-19, 73);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(327, 56);
+            this.pictureBox2.Size = new System.Drawing.Size(436, 69);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
             // 
             // AddMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(297, 173);
+            this.ClientSize = new System.Drawing.Size(396, 213);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAddMenu);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "AddMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

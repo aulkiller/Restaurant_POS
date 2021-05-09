@@ -50,9 +50,10 @@
             this.tvRetypeNewPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tvRetypeNewPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tvRetypeNewPassword.Location = new System.Drawing.Point(19, 176);
+            this.tvRetypeNewPassword.Location = new System.Drawing.Point(25, 217);
+            this.tvRetypeNewPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tvRetypeNewPassword.Name = "tvRetypeNewPassword";
-            this.tvRetypeNewPassword.Size = new System.Drawing.Size(248, 13);
+            this.tvRetypeNewPassword.Size = new System.Drawing.Size(331, 15);
             this.tvRetypeNewPassword.TabIndex = 22;
             this.tvRetypeNewPassword.UseSystemPasswordChar = true;
             // 
@@ -61,27 +62,30 @@
             this.tvNewPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tvNewPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tvNewPassword.Location = new System.Drawing.Point(19, 121);
+            this.tvNewPassword.Location = new System.Drawing.Point(25, 149);
+            this.tvNewPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tvNewPassword.Name = "tvNewPassword";
-            this.tvNewPassword.Size = new System.Drawing.Size(248, 13);
+            this.tvNewPassword.Size = new System.Drawing.Size(331, 15);
             this.tvNewPassword.TabIndex = 21;
             this.tvNewPassword.UseSystemPasswordChar = true;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 157);
+            this.label5.Location = new System.Drawing.Point(20, 193);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 13);
+            this.label5.Size = new System.Drawing.Size(149, 17);
             this.label5.TabIndex = 20;
             this.label5.Text = "Retype New Password";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 101);
+            this.label4.Location = new System.Drawing.Point(20, 124);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.Size = new System.Drawing.Size(100, 17);
             this.label4.TabIndex = 19;
             this.label4.Text = "New Password";
             // 
@@ -94,9 +98,10 @@
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.Location = new System.Drawing.Point(105, 211);
+            this.btnEdit.Location = new System.Drawing.Point(140, 260);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.Size = new System.Drawing.Size(100, 28);
             this.btnEdit.TabIndex = 18;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
@@ -107,9 +112,10 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(90, 22);
+            this.label1.Location = new System.Drawing.Point(120, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.Size = new System.Drawing.Size(149, 25);
             this.label1.TabIndex = 23;
             this.label1.Text = "Edit Password";
             // 
@@ -118,9 +124,10 @@
             this.tvOldPasswork.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tvOldPasswork.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tvOldPasswork.Location = new System.Drawing.Point(18, 71);
+            this.tvOldPasswork.Location = new System.Drawing.Point(24, 87);
+            this.tvOldPasswork.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tvOldPasswork.Name = "tvOldPasswork";
-            this.tvOldPasswork.Size = new System.Drawing.Size(248, 13);
+            this.tvOldPasswork.Size = new System.Drawing.Size(331, 15);
             this.tvOldPasswork.TabIndex = 25;
             this.tvOldPasswork.UseSystemPasswordChar = true;
             // 
@@ -128,18 +135,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(15, 52);
+            this.label2.Location = new System.Drawing.Point(20, 64);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.Size = new System.Drawing.Size(90, 17);
             this.label2.TabIndex = 24;
             this.label2.Text = "Old Password";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-10, 48);
+            this.pictureBox2.Location = new System.Drawing.Point(-13, 59);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(304, 60);
+            this.pictureBox2.Size = new System.Drawing.Size(405, 74);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
@@ -147,9 +156,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-9, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(-12, 119);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(304, 60);
+            this.pictureBox1.Size = new System.Drawing.Size(405, 74);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 39;
             this.pictureBox1.TabStop = false;
@@ -157,19 +167,20 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(-9, 153);
+            this.pictureBox3.Location = new System.Drawing.Point(-12, 188);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(304, 60);
+            this.pictureBox3.Size = new System.Drawing.Size(405, 74);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 40;
             this.pictureBox3.TabStop = false;
             // 
             // PassworkEditDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(284, 246);
+            this.ClientSize = new System.Drawing.Size(379, 303);
             this.Controls.Add(this.tvOldPasswork);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -181,6 +192,8 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PassworkEditDialog";
             this.Text = "PassworkEditDialog";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
