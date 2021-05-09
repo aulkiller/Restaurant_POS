@@ -96,8 +96,8 @@ namespace GUI.SystemSetup.Seat
 
         private void UpdateControlPosition()
         {
-            int tableWidth = 150;
-            int tableHeight = 70;
+            int tableWidth = 250;
+            int tableHeight = 200;
             int minPadding = 6;
             int contentPadding = 90;
 
