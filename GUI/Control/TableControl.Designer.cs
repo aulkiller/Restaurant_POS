@@ -47,10 +47,9 @@ namespace GUI.Control
             this.txtName.ContextMenuStrip = this.contextMenuStrip;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.txtName.Location = new System.Drawing.Point(197, 73);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.txtName.Location = new System.Drawing.Point(115, 57);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(58, 31);
+            this.txtName.Size = new System.Drawing.Size(49, 25);
             this.txtName.TabIndex = 0;
             this.txtName.Text = "1xx";
             this.txtName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -64,28 +63,29 @@ namespace GUI.Control
             this.editToolStripMenuItem,
             this.deleteToolStripMenuItem});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(123, 52);
+            this.contextMenuStrip.Size = new System.Drawing.Size(108, 48);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.editToolStripMenuItem.Text = "Edit...";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources._22;
-            this.pictureBox1.Location = new System.Drawing.Point(82, 36);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 30);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(231, 177);
+            this.pictureBox1.Size = new System.Drawing.Size(173, 144);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -93,15 +93,14 @@ namespace GUI.Control
             // 
             // TableControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
             this.ContextMenuStrip = this.contextMenuStrip;
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TableControl";
-            this.Size = new System.Drawing.Size(400, 235);
+            this.Size = new System.Drawing.Size(247, 198);
             this.DoubleClick += new System.EventHandler(this.TableControl_DoubleClick);
             this.contextMenuStrip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

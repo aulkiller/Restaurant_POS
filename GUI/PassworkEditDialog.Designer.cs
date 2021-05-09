@@ -65,7 +65,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 13);
             this.label5.TabIndex = 20;
-            this.label5.Text = "Retype New Passwork";
+            this.label5.Text = "Retype New Password";
             // 
             // label4
             // 
@@ -74,7 +74,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 13);
             this.label4.TabIndex = 19;
-            this.label4.Text = "New Passwork";
+            this.label4.Text = "New Password";
             // 
             // btnEdit
             // 
@@ -93,9 +93,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(90, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 20);
+            this.label1.Size = new System.Drawing.Size(123, 20);
             this.label1.TabIndex = 23;
-            this.label1.Text = "Edit Passwork";
+            this.label1.Text = "Edit Password";
             // 
             // tvOldPasswork
             // 
@@ -110,11 +110,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(15, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 24;
-            this.label2.Text = "Old Passwork";
+            this.label2.Text = "Old Password";
             // 
             // PassworkEditDialog
             // 
