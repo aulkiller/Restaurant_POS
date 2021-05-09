@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PassworkEditDialog));
             this.tvRetypeNewPassword = new System.Windows.Forms.TextBox();
             this.tvNewPassword = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -36,15 +37,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tvOldPasswork = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // tvRetypeNewPassword
             // 
             this.tvRetypeNewPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tvRetypeNewPassword.Location = new System.Drawing.Point(18, 173);
+            this.tvRetypeNewPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tvRetypeNewPassword.Location = new System.Drawing.Point(19, 176);
             this.tvRetypeNewPassword.Name = "tvRetypeNewPassword";
-            this.tvRetypeNewPassword.Size = new System.Drawing.Size(254, 20);
+            this.tvRetypeNewPassword.Size = new System.Drawing.Size(248, 13);
             this.tvRetypeNewPassword.TabIndex = 22;
             this.tvRetypeNewPassword.UseSystemPasswordChar = true;
             // 
@@ -52,9 +60,10 @@
             // 
             this.tvNewPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tvNewPassword.Location = new System.Drawing.Point(18, 117);
+            this.tvNewPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tvNewPassword.Location = new System.Drawing.Point(19, 121);
             this.tvNewPassword.Name = "tvNewPassword";
-            this.tvNewPassword.Size = new System.Drawing.Size(254, 20);
+            this.tvNewPassword.Size = new System.Drawing.Size(248, 13);
             this.tvNewPassword.TabIndex = 21;
             this.tvNewPassword.UseSystemPasswordChar = true;
             // 
@@ -78,12 +87,19 @@
             // 
             // btnEdit
             // 
+            this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(92)))));
+            this.btnEdit.FlatAppearance.BorderSize = 0;
+            this.btnEdit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
+            this.btnEdit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
+            this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.ForeColor = System.Drawing.Color.White;
             this.btnEdit.Location = new System.Drawing.Point(105, 211);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 18;
             this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // label1
@@ -101,9 +117,10 @@
             // 
             this.tvOldPasswork.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tvOldPasswork.Location = new System.Drawing.Point(18, 68);
+            this.tvOldPasswork.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tvOldPasswork.Location = new System.Drawing.Point(18, 71);
             this.tvOldPasswork.Name = "tvOldPasswork";
-            this.tvOldPasswork.Size = new System.Drawing.Size(254, 20);
+            this.tvOldPasswork.Size = new System.Drawing.Size(248, 13);
             this.tvOldPasswork.TabIndex = 25;
             this.tvOldPasswork.UseSystemPasswordChar = true;
             // 
@@ -117,10 +134,41 @@
             this.label2.TabIndex = 24;
             this.label2.Text = "Old Password";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-10, 48);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(304, 60);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 38;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-9, 97);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(304, 60);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 39;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(-9, 153);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(304, 60);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 40;
+            this.pictureBox3.TabStop = false;
+            // 
             // PassworkEditDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(284, 246);
             this.Controls.Add(this.tvOldPasswork);
             this.Controls.Add(this.label2);
@@ -130,8 +178,14 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnEdit);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox3);
             this.Name = "PassworkEditDialog";
             this.Text = "PassworkEditDialog";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,5 +201,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tvOldPasswork;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
