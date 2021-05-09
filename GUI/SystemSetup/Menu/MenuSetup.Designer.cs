@@ -46,9 +46,10 @@
             this.btnAddFood.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
             this.btnAddFood.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddFood.ForeColor = System.Drawing.Color.White;
-            this.btnAddFood.Location = new System.Drawing.Point(512, 153);
+            this.btnAddFood.Location = new System.Drawing.Point(1108, 188);
+            this.btnAddFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddFood.Name = "btnAddFood";
-            this.btnAddFood.Size = new System.Drawing.Size(104, 23);
+            this.btnAddFood.Size = new System.Drawing.Size(139, 28);
             this.btnAddFood.TabIndex = 0;
             this.btnAddFood.Text = "Add food";
             this.btnAddFood.UseVisualStyleBackColor = false;
@@ -63,9 +64,10 @@
             this.btnDeleteMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
             this.btnDeleteMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteMenu.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteMenu.Location = new System.Drawing.Point(512, 93);
+            this.btnDeleteMenu.Location = new System.Drawing.Point(1108, 114);
+            this.btnDeleteMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeleteMenu.Name = "btnDeleteMenu";
-            this.btnDeleteMenu.Size = new System.Drawing.Size(104, 23);
+            this.btnDeleteMenu.Size = new System.Drawing.Size(139, 28);
             this.btnDeleteMenu.TabIndex = 1;
             this.btnDeleteMenu.Text = "Delete Menu";
             this.btnDeleteMenu.UseVisualStyleBackColor = false;
@@ -77,18 +79,20 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPage1);
-            this.tabControl.Location = new System.Drawing.Point(3, 9);
+            this.tabControl.Location = new System.Drawing.Point(4, 11);
+            this.tabControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(503, 307);
+            this.tabControl.Size = new System.Drawing.Size(1096, 655);
             this.tabControl.TabIndex = 4;
             // 
             // tabPage1
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(495, 281);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Size = new System.Drawing.Size(1088, 626);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -102,9 +106,10 @@
             this.btnEditMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
             this.btnEditMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditMenu.ForeColor = System.Drawing.Color.White;
-            this.btnEditMenu.Location = new System.Drawing.Point(512, 60);
+            this.btnEditMenu.Location = new System.Drawing.Point(1108, 74);
+            this.btnEditMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditMenu.Name = "btnEditMenu";
-            this.btnEditMenu.Size = new System.Drawing.Size(104, 27);
+            this.btnEditMenu.Size = new System.Drawing.Size(139, 33);
             this.btnEditMenu.TabIndex = 5;
             this.btnEditMenu.Text = "Edit Menu";
             this.btnEditMenu.UseVisualStyleBackColor = false;
@@ -120,9 +125,10 @@
             this.btnAddMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
             this.btnAddMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddMenu.ForeColor = System.Drawing.Color.White;
-            this.btnAddMenu.Location = new System.Drawing.Point(512, 31);
+            this.btnAddMenu.Location = new System.Drawing.Point(1108, 38);
+            this.btnAddMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddMenu.Name = "btnAddMenu";
-            this.btnAddMenu.Size = new System.Drawing.Size(104, 23);
+            this.btnAddMenu.Size = new System.Drawing.Size(139, 28);
             this.btnAddMenu.TabIndex = 0;
             this.btnAddMenu.Text = "Add menu";
             this.btnAddMenu.UseVisualStyleBackColor = false;
@@ -130,18 +136,18 @@
             // 
             // MenuSetup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(628, 322);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.btnEditMenu);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.btnDeleteMenu);
             this.Controls.Add(this.btnAddMenu);
             this.Controls.Add(this.btnAddFood);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MenuSetup";
             this.Text = "Menusetup";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tabControl.ResumeLayout(false);
             this.ResumeLayout(false);
 
