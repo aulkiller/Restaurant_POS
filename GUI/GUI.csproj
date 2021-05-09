@@ -391,6 +391,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app_icon.ico" />
+    <None Include="Resources\201-2018453_our-menus-food-menu-icon-png.png" />
+    <None Include="Resources\testttt.png" />
+    <None Include="Resources\22.png" />
+    <None Include="Resources\16650192161582800237-512.png" />
+    <None Include="Resources\378-3783388_staff-icon-png-people-symbol-no-background-clipart.png" />
+    <None Include="Resources\Background.png" />
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\gears_006.png" />
+    <None Include="Resources\kasir.png" />
+    <None Include="Resources\cashier-icon-png-2-Transparent-Images.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

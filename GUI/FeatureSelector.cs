@@ -58,5 +58,20 @@ namespace GUI
         {
             new Analytics().ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new TablesStatus().ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new RestaurantSetup().ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new Analytics().ShowDialog();
+        }
     }
 }
