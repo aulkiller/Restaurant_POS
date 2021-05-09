@@ -102,7 +102,7 @@ namespace GUI.Control
             this.hover--;
             if (this.hover <= 0)
             {
-                this.BackColor = Color.Transparent;
+                this.BackColor = ColorTranslator.FromHtml("#e5e5e5");
             }
         }
 
@@ -118,6 +118,11 @@ namespace GUI.Control
         {
             if (this.OnRemove != null)
                 this.OnRemove(this);
+        }
+
+        private void SelectMenuItemControl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

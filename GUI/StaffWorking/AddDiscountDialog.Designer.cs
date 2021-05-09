@@ -39,13 +39,15 @@
             // 
             // btAdd
             // 
+            this.btAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btAdd.ForeColor = System.Drawing.Color.Black;
             this.btAdd.Location = new System.Drawing.Point(157, 177);
-            this.btAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btAdd.Name = "btAdd";
             this.btAdd.Size = new System.Drawing.Size(100, 28);
             this.btAdd.TabIndex = 21;
             this.btAdd.Text = "Add";
-            this.btAdd.UseVisualStyleBackColor = true;
+            this.btAdd.UseVisualStyleBackColor = false;
             this.btAdd.Click += new System.EventHandler(this.btAdd_Click);
             // 
             // label2
@@ -75,7 +77,7 @@
             this.rbPercent.AutoSize = true;
             this.rbPercent.Checked = true;
             this.rbPercent.Location = new System.Drawing.Point(16, 59);
-            this.rbPercent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbPercent.Margin = new System.Windows.Forms.Padding(4);
             this.rbPercent.Name = "rbPercent";
             this.rbPercent.Size = new System.Drawing.Size(190, 21);
             this.rbPercent.TabIndex = 22;
@@ -88,7 +90,7 @@
             // 
             this.rbCash.AutoSize = true;
             this.rbCash.Location = new System.Drawing.Point(233, 59);
-            this.rbCash.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbCash.Margin = new System.Windows.Forms.Padding(4);
             this.rbCash.Name = "rbCash";
             this.rbCash.Size = new System.Drawing.Size(153, 21);
             this.rbCash.TabIndex = 23;
@@ -99,7 +101,7 @@
             // tvDiscount
             // 
             this.tvDiscount.Location = new System.Drawing.Point(16, 130);
-            this.tvDiscount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tvDiscount.Margin = new System.Windows.Forms.Padding(4);
             this.tvDiscount.Maximum = new decimal(new int[] {
             -402653185,
             -1613725636,
@@ -120,7 +122,8 @@
             this.Controls.Add(this.btAdd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddDiscountDialog";
             this.Text = "AddDiscountDialog";
             ((System.ComponentModel.ISupportInitialize)(this.tvDiscount)).EndInit();

@@ -73,19 +73,19 @@ namespace GUI.Control
                 {
                     case 0:
                         //empty table
-                        this.BackColor = System.Drawing.SystemColors.ControlDark;
+                        this.BackColor = ColorTranslator.FromHtml("#e5e5e5");
                         break;
                     case 1:
                         // serving
-                        this.BackColor = Color.Green;
+                        this.BackColor = ColorTranslator.FromHtml("#fca311");
                         break;
                     case 2:
                         //request payment
-                        this.BackColor = Color.Red;
+                        this.BackColor = ColorTranslator.FromHtml("#14213d");
                         break;
                     default:
                         //empty table
-                        this.BackColor = System.Drawing.SystemColors.ControlDark;
+                        this.BackColor = ColorTranslator.FromHtml("#e5e5e5");
                         break;
                 }
             }
@@ -126,6 +126,11 @@ namespace GUI.Control
         private void txtName_Click(object sender, EventArgs e)
         {
             this.OnClick(e);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
