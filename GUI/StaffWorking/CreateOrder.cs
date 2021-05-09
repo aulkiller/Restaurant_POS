@@ -344,17 +344,10 @@ namespace GUI.StaffWorking
 
         private void btnDiscount_Click(object sender, EventArgs e)
         {
-            AddDiscountDialog addDiscountDialog = new AddDiscountDialog(order);
-            addDiscountDialog.ShowDialog();
-            if (addDiscountDialog.order != null)
-            {
-                this.order.Discount = addDiscountDialog.order.Discount;
-                this.order.DiscountType = addDiscountDialog.order.DiscountType;
-                this.calculateDiscount();
-            }
+ 
         }
 
-        private void btnExtra_Click(object sender, EventArgs e)
+        private void btnExtra_Click_1(object sender, EventArgs e)
         {
             AddExtraDialog addExtraDialog = new AddExtraDialog(order);
             DialogResult dr = addExtraDialog.ShowDialog();
@@ -366,32 +359,17 @@ namespace GUI.StaffWorking
             }
         }
         
-	    private void btnVAT_Click(object sender, EventArgs e)
+	    private void btnVAT_Click_1(object sender, EventArgs e)
         {
-            DialogResult dr = new AddVAT(this.order).ShowDialog();
-            if (dr == DialogResult.OK)
-            {
-                // update VAT in UI
-                if (this.order.VAT != null)
-                {
-                    this.VAT = (decimal)this.order.VAT;
-                }
-                else
-                {
-                    this.VAT = 0;
-                }
-            }
+            
         }
 
-        private void btnChangeTable_Click(object sender, EventArgs e)
+        private void btnChangeTable_Click_1(object sender, EventArgs e)
         {
-            ChangeTable changeTable = new ChangeTable(this.order, this.Tables);
-            changeTable.ShowDialog();
-            this.Tables = changeTable.Tables;
-            this.DialogResult = DialogResult.OK;
+
         }
 
-        private void btnPay_Click(object sender, EventArgs e)
+        private void btnPay_Click_1(object sender, EventArgs e)
         {
             PaymentDialog paymentDialog = new PaymentDialog(this.order, this.FoodPrice, this.Discount, this.Extra, this.VAT, this.TotalPrice);
             DialogResult dr = paymentDialog.ShowDialog();
@@ -408,6 +386,109 @@ namespace GUI.StaffWorking
         private void lbFoodPrice_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnOrder_Click_1(object sender, EventArgs e)
+        {
+            List<OrderDetail> listOrderDetail = new List<OrderDetail>();
+
+            List<SelectMenuItemControl> listControls = this.flowLayoutPanelRight.Controls.OfType<SelectMenuItemControl>().ToList();
+            foreach (SelectMenuItemControl c in listControls)
+            {
+                if (c.OrderDetail != null)
+                    continue;
+
+                listOrderDetail.Add(new OrderDetail
+                {
+                    OrderID = this.order != null ? this.order.ID : 0,
+                    MenuItemID = c.MenuItem.ID,
+                    Price = c.MenuItem.Price,
+                    Quantity = c.Quantity
+                });
+            }
+
+            OrderBLL orderBLL = new OrderBLL();
+
+            if (this.order == null)
+            {
+                //create order
+                orderBLL.CreateOrder(GlobalData.EMPLOYEE, this.Tables, this.txtCustomerName.Text, listOrderDetail);
+            }
+            else
+            {
+                // add food
+                orderBLL.AddFood(this.order, listOrderDetail);
+            }
+
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+
+        private void lbTable_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void btnDiscount_Click_1(object sender, EventArgs e)
+        {
+            AddDiscountDialog addDiscountDialog = new AddDiscountDialog(order);
+            addDiscountDialog.ShowDialog();
+            if (addDiscountDialog.order != null)
+            {
+                this.order.Discount = addDiscountDialog.order.Discount;
+                this.order.DiscountType = addDiscountDialog.order.DiscountType;
+                this.calculateDiscount();
+            }
+        }
+
+        private void btnChangeTable_Click(object sender, EventArgs e)
+        {
+            ChangeTable changeTable = new ChangeTable(this.order, this.Tables);
+            changeTable.ShowDialog();
+            this.Tables = changeTable.Tables;
+            this.DialogResult = DialogResult.OK;
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPay_Click(object sender, EventArgs e)
+        {
+            PaymentDialog paymentDialog = new PaymentDialog(this.order, this.FoodPrice, this.Discount, this.Extra, this.VAT, this.TotalPrice);
+            DialogResult dr = paymentDialog.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                for (int i = 0; i < this.Tables.Count; i++)
+                {
+                    this.Tables[i].Status = 0;
+                }
+            }
+            this.DialogResult = DialogResult.Yes;
+        }
+
+        private void btnVAT_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = new AddVAT(this.order).ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                // update VAT in UI
+                if (this.order.VAT != null)
+                {
+                    this.VAT = (decimal)this.order.VAT;
+                }
+                else
+                {
+                    this.VAT = 0;
+                }
+            }
         }
     }
 }

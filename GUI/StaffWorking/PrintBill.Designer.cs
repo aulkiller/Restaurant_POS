@@ -56,14 +56,14 @@
             this.btnPageSetup = new System.Windows.Forms.Button();
             this.btnPreview = new System.Windows.Forms.Button();
             this.panelPrint = new System.Windows.Forms.Panel();
+            this.panelSumary = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label11 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.panelSumary = new System.Windows.Forms.Panel();
             this.panelPrint.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
             this.panelSumary.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnPrint
@@ -85,7 +85,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(248, 95);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(20, 13);
+            this.label15.Size = new System.Drawing.Size(30, 13);
             this.label15.TabIndex = 32;
             this.label15.Text = "Rp 0";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -96,7 +96,7 @@
             this.lbBalance.AutoSize = true;
             this.lbBalance.Location = new System.Drawing.Point(248, 111);
             this.lbBalance.Name = "lbBalance";
-            this.lbBalance.Size = new System.Drawing.Size(20, 13);
+            this.lbBalance.Size = new System.Drawing.Size(30, 13);
             this.lbBalance.TabIndex = 31;
             this.lbBalance.Text = "Rp 0";
             this.lbBalance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -129,7 +129,7 @@
             this.lbTotal.AutoSize = true;
             this.lbTotal.Location = new System.Drawing.Point(248, 76);
             this.lbTotal.Name = "lbTotal";
-            this.lbTotal.Size = new System.Drawing.Size(20, 13);
+            this.lbTotal.Size = new System.Drawing.Size(30, 13);
             this.lbTotal.TabIndex = 28;
             this.lbTotal.Text = "Rp 0";
             this.lbTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -140,7 +140,7 @@
             this.lbVAT.AutoSize = true;
             this.lbVAT.Location = new System.Drawing.Point(248, 58);
             this.lbVAT.Name = "lbVAT";
-            this.lbVAT.Size = new System.Drawing.Size(20, 13);
+            this.lbVAT.Size = new System.Drawing.Size(30, 13);
             this.lbVAT.TabIndex = 27;
             this.lbVAT.Text = "Rp 0";
             this.lbVAT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -151,7 +151,7 @@
             this.lbExtra.AutoSize = true;
             this.lbExtra.Location = new System.Drawing.Point(248, 41);
             this.lbExtra.Name = "lbExtra";
-            this.lbExtra.Size = new System.Drawing.Size(20, 13);
+            this.lbExtra.Size = new System.Drawing.Size(30, 13);
             this.lbExtra.TabIndex = 26;
             this.lbExtra.Text = "Rp 0";
             this.lbExtra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -162,7 +162,7 @@
             this.lbDiscount.AutoSize = true;
             this.lbDiscount.Location = new System.Drawing.Point(248, 22);
             this.lbDiscount.Name = "lbDiscount";
-            this.lbDiscount.Size = new System.Drawing.Size(20, 13);
+            this.lbDiscount.Size = new System.Drawing.Size(30, 13);
             this.lbDiscount.TabIndex = 25;
             this.lbDiscount.Text = "Rp 0";
             this.lbDiscount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -173,7 +173,7 @@
             this.lbFoodPrice.AutoSize = true;
             this.lbFoodPrice.Location = new System.Drawing.Point(248, 4);
             this.lbFoodPrice.Name = "lbFoodPrice";
-            this.lbFoodPrice.Size = new System.Drawing.Size(20, 13);
+            this.lbFoodPrice.Size = new System.Drawing.Size(30, 13);
             this.lbFoodPrice.TabIndex = 24;
             this.lbFoodPrice.Text = "Rp 0";
             this.lbFoodPrice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -240,7 +240,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(58, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 25);
+            this.label1.Size = new System.Drawing.Size(181, 25);
             this.label1.TabIndex = 18;
             this.label1.Text = "POS Restaurant";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -251,7 +251,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(20, 38);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(267, 13);
+            this.label7.Size = new System.Drawing.Size(145, 13);
             this.label7.TabIndex = 35;
             this.label7.Text = "Aulia-Ridho-Patrick Surabaya";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -351,6 +351,27 @@
             this.panelPrint.Size = new System.Drawing.Size(302, 328);
             this.panelPrint.TabIndex = 41;
             // 
+            // panelSumary
+            // 
+            this.panelSumary.Controls.Add(this.label2);
+            this.panelSumary.Controls.Add(this.lbTotal);
+            this.panelSumary.Controls.Add(this.label12);
+            this.panelSumary.Controls.Add(this.label13);
+            this.panelSumary.Controls.Add(this.lbVAT);
+            this.panelSumary.Controls.Add(this.label3);
+            this.panelSumary.Controls.Add(this.lbBalance);
+            this.panelSumary.Controls.Add(this.lbExtra);
+            this.panelSumary.Controls.Add(this.label15);
+            this.panelSumary.Controls.Add(this.lbDiscount);
+            this.panelSumary.Controls.Add(this.label4);
+            this.panelSumary.Controls.Add(this.lbFoodPrice);
+            this.panelSumary.Controls.Add(this.label6);
+            this.panelSumary.Controls.Add(this.label5);
+            this.panelSumary.Location = new System.Drawing.Point(3, 171);
+            this.panelSumary.Name = "panelSumary";
+            this.panelSumary.Size = new System.Drawing.Size(296, 134);
+            this.panelSumary.TabIndex = 40;
+            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.AutoSize = true;
@@ -374,7 +395,7 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(3, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.Size = new System.Drawing.Size(37, 13);
             this.label11.TabIndex = 0;
             this.label11.Text = "Items";
             // 
@@ -382,9 +403,9 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(208, 0);
+            this.label16.Location = new System.Drawing.Point(218, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
+            this.label16.Size = new System.Drawing.Size(36, 13);
             this.label16.TabIndex = 2;
             this.label16.Text = "Price";
             // 
@@ -392,32 +413,11 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(255, 0);
+            this.label18.Location = new System.Drawing.Point(260, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
+            this.label18.Size = new System.Drawing.Size(36, 13);
             this.label18.TabIndex = 4;
             this.label18.Text = "Total";
-            // 
-            // panelSumary
-            // 
-            this.panelSumary.Controls.Add(this.label2);
-            this.panelSumary.Controls.Add(this.lbTotal);
-            this.panelSumary.Controls.Add(this.label12);
-            this.panelSumary.Controls.Add(this.label13);
-            this.panelSumary.Controls.Add(this.lbVAT);
-            this.panelSumary.Controls.Add(this.label3);
-            this.panelSumary.Controls.Add(this.lbBalance);
-            this.panelSumary.Controls.Add(this.lbExtra);
-            this.panelSumary.Controls.Add(this.label15);
-            this.panelSumary.Controls.Add(this.lbDiscount);
-            this.panelSumary.Controls.Add(this.label4);
-            this.panelSumary.Controls.Add(this.lbFoodPrice);
-            this.panelSumary.Controls.Add(this.label6);
-            this.panelSumary.Controls.Add(this.label5);
-            this.panelSumary.Location = new System.Drawing.Point(3, 171);
-            this.panelSumary.Name = "panelSumary";
-            this.panelSumary.Size = new System.Drawing.Size(296, 134);
-            this.panelSumary.TabIndex = 40;
             // 
             // PrintBill
             // 
@@ -429,16 +429,17 @@
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.btnPageSetup);
             this.Controls.Add(this.btnPrint);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "PrintBill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "PrintBill";
             this.panelPrint.ResumeLayout(false);
             this.panelPrint.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
             this.panelSumary.ResumeLayout(false);
             this.panelSumary.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
