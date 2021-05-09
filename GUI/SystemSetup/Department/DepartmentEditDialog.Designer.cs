@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DepartmentEditDialog));
             this.btnSave = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.tvNameOfDepartment = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSave
@@ -43,8 +46,9 @@
             this.btnSave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
             this.btnSave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(98, 105);
+            this.btnSave.Location = new System.Drawing.Point(98, 114);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 7;
@@ -67,9 +71,10 @@
             // 
             this.tvNameOfDepartment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tvNameOfDepartment.Location = new System.Drawing.Point(11, 79);
+            this.tvNameOfDepartment.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tvNameOfDepartment.Location = new System.Drawing.Point(16, 83);
             this.tvNameOfDepartment.Name = "tvNameOfDepartment";
-            this.tvNameOfDepartment.Size = new System.Drawing.Size(252, 20);
+            this.tvNameOfDepartment.Size = new System.Drawing.Size(242, 13);
             this.tvNameOfDepartment.TabIndex = 5;
             this.tvNameOfDepartment.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tvNameOfDepartment_KeyUp);
             // 
@@ -82,6 +87,16 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Department\'s name";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-13, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(300, 56);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            // 
             // DepartmentEditDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,8 +107,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tvNameOfDepartment);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "DepartmentEditDialog";
             this.Text = "DepartmentEditDialog";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,5 +122,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tvNameOfDepartment;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

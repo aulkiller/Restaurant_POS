@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddDiscountDialog));
             this.btAdd = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.rbPercent = new System.Windows.Forms.RadioButton();
             this.rbCash = new System.Windows.Forms.RadioButton();
             this.tvDiscount = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.tvDiscount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btAdd
@@ -44,6 +47,7 @@
             this.btAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
             this.btAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
             this.btAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAdd.ForeColor = System.Drawing.Color.White;
             this.btAdd.Location = new System.Drawing.Point(118, 144);
             this.btAdd.Name = "btAdd";
@@ -99,15 +103,27 @@
             // 
             // tvDiscount
             // 
-            this.tvDiscount.Location = new System.Drawing.Point(12, 106);
+            this.tvDiscount.BackColor = System.Drawing.Color.White;
+            this.tvDiscount.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tvDiscount.Location = new System.Drawing.Point(17, 110);
             this.tvDiscount.Maximum = new decimal(new int[] {
             -402653185,
             -1613725636,
             54210108,
             0});
             this.tvDiscount.Name = "tvDiscount";
-            this.tvDiscount.Size = new System.Drawing.Size(286, 20);
+            this.tvDiscount.Size = new System.Drawing.Size(286, 16);
             this.tvDiscount.TabIndex = 24;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-16, 83);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(346, 67);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
             // 
             // AddDiscountDialog
             // 
@@ -121,10 +137,12 @@
             this.Controls.Add(this.btAdd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "AddDiscountDialog";
             this.Text = "AddDiscountDialog";
             ((System.ComponentModel.ISupportInitialize)(this.tvDiscount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,5 +156,6 @@
         private System.Windows.Forms.RadioButton rbPercent;
         private System.Windows.Forms.RadioButton rbCash;
         private System.Windows.Forms.NumericUpDown tvDiscount;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
