@@ -55,12 +55,13 @@
             // btnAddMenu
             // 
             this.btnAddMenu.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnAddMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnAddMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(92)))));
             this.btnAddMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddMenu.FlatAppearance.BorderSize = 0;
-            this.btnAddMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(138)))), ((int)(((byte)(2)))));
-            this.btnAddMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(150)))), ((int)(((byte)(2)))));
+            this.btnAddMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(17)))), ((int)(((byte)(31)))));
+            this.btnAddMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(61)))));
             this.btnAddMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddMenu.ForeColor = System.Drawing.Color.White;
             this.btnAddMenu.Location = new System.Drawing.Point(110, 112);
             this.btnAddMenu.Name = "btnAddMenu";
             this.btnAddMenu.Size = new System.Drawing.Size(75, 23);
@@ -84,6 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(297, 173);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAddMenu);
