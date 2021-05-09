@@ -28,6 +28,7 @@ namespace GUI.Control
             get { return menuItem; }
             set
             {
+                
                 menuItem = value;
                 this.lbName.Text = menuItem.Name;
                 this.lbPrice.Text = "Rp " + string.Format("{0:0}", menuItem.Price);
@@ -75,7 +76,7 @@ namespace GUI.Control
             this.hover++;
             if (this.hover > 0)
             {
-                this.BackColor = Color.WhiteSmoke;
+                this.BackColor = Color.FromArgb(242, 150, 2);
             }
         }
 
